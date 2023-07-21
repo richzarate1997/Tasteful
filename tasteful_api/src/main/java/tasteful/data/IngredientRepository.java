@@ -1,4 +1,8 @@
 package tasteful.data;
 
-public interface IngredientRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import tasteful.models.Ingredient;
+
+public interface IngredientRepository extends JpaRepository<Ingredient, Long> {
 }
+

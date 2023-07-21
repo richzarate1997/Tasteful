@@ -1,4 +1,4 @@
 package tasteful.data;
 
-public class RecipeJdcbTemplateRepository implements RecipeRepository{
+public class RecipeJdcbTemplateRepository{
 }
